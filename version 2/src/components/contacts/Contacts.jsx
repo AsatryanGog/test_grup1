@@ -1,25 +1,25 @@
-import React from 'react'
+import React from 'react';
 
 import '../contacts/contacts.css'
 
 const Contacts = () => {
   return (
-    <form class="form-contactUs" action="" method="">
-    <div class="form-title">
-      <p>CONTACT US</p>
-      <div class="form-messige">
-        <p>Keep in Touch</p>
-        <p>With Harmoni</p>
+    <form className="form-contactUs" action="" method="">
+      <div className="form-title">
+        <p>CONTACT US</p>
+        <div className="form-message">
+          <p>Keep in Touch</p>
+          <p>With Harmony</p>
+        </div>
       </div>
-    </div>
-    <div class="container-inputs">
-      <input class="yourName" placeholder="Your Name" />
-      <input class="emailAddress" placeholder="Emial Address" />
-      <input class="yourCountry" placeholder="Your Country" />
-      <input class="phoneNumber" placeholder="Phone Number" />
-      <textarea class="yousMessage" placeholder="Your Message"></textarea>
-      <button class="formButton" type="submit">SEND MAIL</button>
-    </div>
+      <div className="container-inputs">
+        <input className="yourName" placeholder="Your Name" />
+        <input className="emailAddress" placeholder="Email Address" />
+        <input className="yourCountry" placeholder="Your Country" />
+        <input className="phoneNumber" placeholder="Phone Number" />
+        <textarea className="yousMessage" placeholder="Your Message"></textarea>
+        <button className="formButton" type="submit">SEND MAIL</button>
+      </div>
   </form>
   )
 }
